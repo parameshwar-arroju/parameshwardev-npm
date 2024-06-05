@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    // Enable latest features
     "lib": [
       "ESNext",
       "DOM"
@@ -11,21 +10,18 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "outDir": "./dist",
-    // Bundler mode
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
-    "noEmit": false, // Change this to false to allow emitting files
-    // Best practices
+    "noEmit": false, 
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
-    // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
   },
   "include": [
-    "index.ts"
+    "src/index.ts"
   ],
   "exclude": [
     "node_modules"

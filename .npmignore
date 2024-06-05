@@ -1,2 +1,37 @@
-dist
+# Directories
 node_modules
+dist
+coverage
+build
+temp
+logs
+
+# Config files
+*.tsbuildinfo
+
+# Testing files
+*.spec.ts
+*.test.ts
+*.test.js
+*.spec.js
+jest.config.js
+
+# Source files (if you only want to publish compiled files)
+src
+
+# IDE files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+*.bak
+*.tmp

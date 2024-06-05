@@ -1,15 +1,22 @@
 {
-    "name": "parameshwardev",
+    "name": "parameshwar",
     "module": "index.ts",
     "type": "module",
     "main": "dist/index.js",
     "private": false,
     "author": {
-        "name": "Arroju Parameshwardev"
+        "name": "Arroju Parameshwar"
     },
     "keywords": [
-        "terminal-portfolio"
+        "terminal-portfolio",
+        "greeting",
+        "cli",
+        "console",
+        "command-line"
     ],
+    "bin": {
+        "parameshwar": "dist/index.js"
+    },
     "scripts": {
         "start": "node dist/index.js",
         "build": "tsc"
