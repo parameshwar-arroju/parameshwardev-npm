@@ -61,3 +61,10 @@ To publish the package to NPM:
    ```bash
    npm publish
    ```
+
+## License
+
+```
+This project is licensed under the MIT License - see the LICENSE file for details.
+Copyright (c) 2024 shiva```
+
