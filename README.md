@@ -66,5 +66,5 @@ To publish the package to NPM:
 
 ```
 This project is licensed under the MIT License - see the LICENSE file for details.
-Copyright (c) 2024 shiva```
+Copyright (c) 2024 Arroju Parameshwar
 
